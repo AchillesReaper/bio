@@ -1,0 +1,34 @@
+/* Navbar.css */
+
+.navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 0; /* Padding at the top and bottom */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove bullet points from the list */
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Spacing between list items */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Bold text for links */
+    transition: color 0.3s; /* Smooth color transition on hover */
+  }
+  
+  .navbar a:hover {
+    color: #ff6600; /* Change text color on hover */
+  }
+  
