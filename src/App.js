@@ -5,17 +5,19 @@ import Home from './components/Home';
 import Academic from './components/Academic';
 import Industrial from './components/Industrial';
 import Projects from './components/Projects';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar/>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/academic" element={<Academic/>} />
-          <Route path="/industrial" element={<Industrial/>} />
-          <Route path="/projects" element={<Projects/>} />
+        <Routes path="/" element={<Layout/>}>
+          <Route index element={<Home/>} />
+          <Route path="/bio" element={<Home/>} />
+          <Route path="/bio/academic" element={<Academic/>} />
+          <Route path="/bio/industrial" element={<Industrial/>} />
+          <Route path="/bio/projects" element={<Projects/>} />
         </Routes>
       </Router>
     </div>

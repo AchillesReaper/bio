@@ -1,6 +1,7 @@
 // Layout.js
 import React from 'react';
 import Navbar from './Navbar';
+import Home from './Home';
 import { Outlet } from 'react-router-dom';
 
 function Layout() {
@@ -9,6 +10,7 @@ function Layout() {
       <Navbar />
       <div className="content">
         <Outlet /> {/* This will render the content of the clicked links */}
+
       </div>
     </div>
   );
