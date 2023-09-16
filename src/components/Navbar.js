@@ -6,10 +6,10 @@ export default function Navbar(){
     return (
         <nav className="navbar">
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/academic">Academic</Link></li>
-                <li><Link to="/industrial">Industrial</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
+                <li> <Link to="/">Home</Link> </li>
+                <li> <Link to="/academic">Academic</Link> </li>
+                <li> <Link to="/industrial">Industrial</Link> </li>
+                <li> <Link to="/projects">Projects</Link> </li>
             </ul>
         </nav>
     )

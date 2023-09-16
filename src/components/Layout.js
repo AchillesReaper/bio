@@ -1,9 +1,8 @@
-// Layout.js
 import React from 'react';
 import Navbar from './Navbar';
 import { Outlet } from 'react-router-dom';
 
-function Layout() {
+export default function Layout() {
   return (
     <div>
       <Navbar />
@@ -15,4 +14,4 @@ function Layout() {
   );
 }
 
-export default Layout;
+
