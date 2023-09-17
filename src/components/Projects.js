@@ -1,7 +1,11 @@
+import Graph from "./Graph"
+import "./Node.css"
 export default function Projects(){
     return (
         <div>
-            belows are the project I built all these year!
+
+            <h1>Simple Node Graph</h1>
+            <Graph />
         </div>
     )
 }

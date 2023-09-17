@@ -1,26 +1,50 @@
-/* #introduction {
-    text-align: center;
-    font-size: calc(10px + 2vmin);
-    display: flex;
-} */
-
-
 
 td {
     vertical-align: top;
     text-align: left;
 }
 
-
-section {
-    width: 50vw;
+#profile{
+    display: flex;
 }
 
-@media (max-width: 800px){
+
+#introduction, #core-skills {
+    width: 50vw;
+    height: 60vh;
+    font-size: calc(10px + 1vmin);
+    margin: 2px;
+    border: 1px blue solid;
+}
+
+#time-line{
+    font-size: calc(10px + 1vmin);
+    margin: 2px;
+    border: 1px blue solid;
+}
+/* #core-skills{
+    width: 50vw;
+    height: 60vh;
+    background-color: red;
     
-    section{
+} */
+
+@media (max-width: 800px){
+    #profile{
+        display: block;
+    }
+
+    #introduction, #core-skills{
         display: flex;
-        width: 100vw;
+        width: 98vw;
+        height: 40vh;
+        font-size: calc(10px + 1.5vmin);
+    }
+
+    #time-line{
+        width: 98vw;
+        margin: 2px;
+        border: 1px blue solid;
     }
 
 }
