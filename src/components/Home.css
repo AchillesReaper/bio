@@ -4,6 +4,7 @@ td {
     text-align: left;
 }
 
+
 #profile{
     display: flex;
 }
@@ -39,6 +40,7 @@ td {
         width: 98vw;
         height: 40vh;
         font-size: calc(10px + 1.5vmin);
+        overflow-y: scroll;
     }
 
     #time-line{

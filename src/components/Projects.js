@@ -1,11 +1,9 @@
-import Graph from "./Graph"
-import "./Node.css"
+import DrawingP5 from "./DrawingP5"
+
 export default function Projects(){
     return (
         <div>
-
-            <h1>Simple Node Graph</h1>
-            <Graph />
+            {/* <DrawingP5 /> */}
         </div>
     )
 }

@@ -17,9 +17,6 @@ export default function Introduction() {
                     </td>
                 </tr>
             </tbody>
-            {/* <p>
-                Master of IT, <em>major in software development</em>, University of Technology Sydney @ 2023
-            </p> */}
         </table>
 
         
