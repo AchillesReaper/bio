@@ -7,12 +7,10 @@ import Industrial from './components/Industrial';
 import Projects from './components/Projects';
 import Layout from './components/Layout';
 
-import DrawingP5 from './components/DrawingP5';
 
 function App() {
   return (
     <div className="App">
-
       <Router basename='/bio'>
         <Navbar/>
         <Routes path="/" element={<Layout/>}>

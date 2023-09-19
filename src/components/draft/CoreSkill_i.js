@@ -3,9 +3,11 @@ import p5 from 'p5';
 
 // Import your image files as variables
 
-const CoreSkill2 = () => {
+const CoreSkill_i = () => {
   const canvasRef = useRef(null);
+
   useEffect(() => {
+
     let centerX;
     let centerY;
     let canvasSize;
@@ -14,7 +16,6 @@ const CoreSkill2 = () => {
     let tier2Size;
 
     let centerNode;
-    let t1nodeSample;
     let nodeImagesT1 = [];
     let numNodesT1;
     let nodeImagesT2 = [];
@@ -41,7 +42,6 @@ const CoreSkill2 = () => {
 
         numNodesT1 = nodeSrcT1.length;
         for (let i = 0; i < numNodesT1; i++) {
-          console.log(nodeSrcT1[i])
           nodeImagesT1.push(p.loadImage(nodeSrcT1[i]));
         }
 
@@ -58,7 +58,6 @@ const CoreSkill2 = () => {
 
         numNodesT2 = nodeSrcT2.length;
         for (let i = 0; i < numNodesT2; i++) {
-          console.log(nodeSrcT1[i])
           nodeImagesT2.push(p.loadImage(nodeSrcT2[i]));
         }
 
@@ -68,7 +67,7 @@ const CoreSkill2 = () => {
       p.setup = () => {
         console.log('setup function called');
 
-        p.createCanvas(800, 800);
+        p.createCanvas(400, 400);
         centerX = p.width / 2;
         centerY = p.height / 2;
         canvasSize = p.min(p.width, p.height);
@@ -98,10 +97,10 @@ const CoreSkill2 = () => {
             let x = centerX + p.cos(angle) * (canvasSize / 5 * j);
             let y = centerY + p.sin(angle) * (canvasSize / 5 * j);
 
-            if (j == 1){
+            if (j == 1) {
               p.line(centerX, centerY, x, y);
             }
-            
+
 
             let targetImage = nodeImages[i % nodeImages.length];
             let imageHeight = (targetImage.height / targetImage.width) * tierSize;
@@ -132,7 +131,7 @@ const CoreSkill2 = () => {
         p.push();
         p.fill(0);
         p.textStyle(p.BOLD);
-        p.text('Core Skills', centerX, centerY);
+        p.text('Core Skills - i', centerX, centerY);
         p.pop();
       };
     };
@@ -148,12 +147,12 @@ const CoreSkill2 = () => {
 
   return (
     <div>
-      <h2>Node Graph</h2>
-      <div id="node-graph-container" ref={canvasRef}>
+      <div id="canvas-container" ref={canvasRef} style={{ border: '1px solid green' }}>
+        <h2>hello world</h2>
         {/* <img src="/images/sun.png"/> */}
       </div>
     </div>
   );
 };
 
-export default CoreSkill2;
+export default CoreSkill_i;
