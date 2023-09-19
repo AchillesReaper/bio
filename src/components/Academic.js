@@ -1,10 +1,10 @@
-import CoreSkill from "./CoreSkill"
-import CoreSkill1 from "./CoreSkill1"
+import CoreSkill_i from "./CoreSkill_i"
+
 export default function Academic(){
     return (
         <div>
             hello world!
-            <CoreSkill/>
+            <CoreSkill_i/>
         </div>
     )
 }
