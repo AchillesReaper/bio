@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import p5 from 'p5';
 
 // Import your image files as variables
@@ -65,8 +65,6 @@ const CoreSkill = () => {
       };
 
       p.setup = () => {
-        console.log('setup function called');
-        
         parentContainer = canvasRef.current;
         p.createCanvas(parentContainer.offsetWidth, parentContainer.offsetHeight).parent(parentContainer);
         canvasSize = Math.min(p.width, p.height);
@@ -85,7 +83,7 @@ const CoreSkill = () => {
       };
 
       p.draw = () => {
-        p.background(120);
+        p.background('#3da3d5');
 
         // Draw concentric circles
         for (let i = 1; i < 3; i++) {
@@ -99,7 +97,7 @@ const CoreSkill = () => {
             let x = centerX + p.cos(angle) * (canvasSize / 5 * j);
             let y = centerY + p.sin(angle) * (canvasSize / 5 * j);
 
-            if (j == 1) {
+            if (j === 1) {
               p.line(centerX, centerY, x, y);
             }
 

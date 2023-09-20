@@ -1,3 +1,17 @@
+#my-name{
+    background-color: #1a5775;
+}
+h1{
+    color: aliceblue;
+}
+
+.home-container{
+    background: #3da3d5;
+    margin: 2px;
+    border: 1px blue solid;
+
+}
+
 td {
     vertical-align: top;
     text-align: left;
@@ -11,17 +25,18 @@ td {
 
 #introduction,
 #core-skills {
+    background: #3da3d5;
     width: 50vw;
     height: 60vh;
     font-size: calc(10px + 1vmin);
-    margin: 2px;
-    border: 1px blue solid;
+    color: aliceblue;
     overflow-x: scroll;
     overflow-y: scroll;
 }
 
 #time-line {
     font-size: calc(10px + 1vmin);
+    color: aliceblue;
     margin: 2px;
     border: 1px blue solid;
 }
