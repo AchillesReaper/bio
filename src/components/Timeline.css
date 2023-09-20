@@ -59,6 +59,13 @@
   }
 
 
+  .cptButton {
+    background-color: #e54b4b;
+  }
+  
+  .cptButton:hover {
+    background-color: #f09494;
+  }
   
   @media only screen and (max-width: 1700px) {
     .vertical-timeline-element-date {

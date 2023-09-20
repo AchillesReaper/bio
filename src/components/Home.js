@@ -6,8 +6,10 @@ import TimeLine from './Timeline';
 export default function Home() {
 
     return (
-        <div id='home-component'>
-            <h1>Donald Ho</h1>
+        <div>
+            <div id='my-name' className='home-container'>
+                <h1>Donald Ho</h1>
+            </div>
             <section id='profile'>
                 <div id='introduction' className='home-container'>
                     <Introduction />

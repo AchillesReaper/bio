@@ -127,11 +127,11 @@ const listOfEvents = [
     }
     ,
     {
-        title: "Lion International Securities Group Limited ",
+        title: "Lion International",
         location: "Hong Kong",
         description:
             "Overseen the securities and futures business.",
-        buttonText: "View My Ranking (10620084)",
+        buttonText: "View Company Website",
         date: "Jun 2016 – Jan 2019",
         icon: "work",
         refLink: 'https://www.libkr.com.hk/'
@@ -185,76 +185,12 @@ const listOfEvents = [
         title: "UTS, Bachelor of Business ",
         location: "Sydney, Australia",
         description:
-            "A two years course major in Software Development",
+            "major in Finance, submajor in Banking",
         buttonText: "View Certificate",
         date: "16 Aug 2009",
         icon: "school",
         refLink: '/'
-    },
-
-    
-
-
-
-    {
-        title: "Meta, Introduction to Front-End Development",
-        location: "Sydney, Australia",
-        description:
-            "This course is part of the Meta Front-End Developer Professional Certificate",
-        buttonText: "View Certificate",
-        date: "29 Jun 2023",
-        icon: "school",
-        refLink: '/'
     }
-    ,
-    {
-        title: "Meta, Programming with JavaScript",
-        location: "Sydney, Australia",
-        description:
-            "This course is part of the Meta Front-End Developer Professional Certificate",
-        buttonText: "View Certificate",
-        date: "1 Ag 2023",
-        icon: "school",
-        refLink: '/'
-    }
-    ,
-    {
-        title: "Meta, HTML and CSS in depth",
-        location: "Sydney, Australia",
-        description:
-            "This course is part of the Meta Front-End Developer Professional Certificate",
-        buttonText: "View Certificate",
-        date: "11 Aug 2023",
-        icon: "school",
-        refLink: '/'
-    }
-    ,
-    {
-        title: "Meta, React Basic",
-        location: "Sydney, Australia",
-        description:
-            "This course is part of the Meta Front-End Developer Professional Certificate",
-        buttonText: "View Certificate",
-        date: "21 Aug 2023",
-        icon: "school",
-        refLink: '/'
-    }
-    ,
-    {
-        title: "Meta, Version Control",
-        location: "Sydney, Australia",
-        description:
-            "This course is part of the Meta Front-End Developer Professional Certificate",
-        buttonText: "View Certificate",
-        date: "07 Sep 2023",
-        icon: "school",
-        refLink: '/'
-    }
-
-
-
-
-
 ]
 
 const timelineElements = listOfEvents.map((e, i) => {

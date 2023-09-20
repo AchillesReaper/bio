@@ -16,7 +16,7 @@ export default function Timeline() {
 
     return (
         <div id="timeline-container">
-            <h1 className="title">If you would like to know more about me, please keep scrolling</h1>
+            <h2 className="title">If you would like to know more about me, please keep scrolling</h2>
             <StartIcon />
             <VerticalTimeline>
                 {timelineElements.map(element => {
@@ -41,16 +41,13 @@ export default function Timeline() {
 
                         case "cpt":
                             icon = <CptIcon />
-                            iconStyle = { background: "#D2a557" }
-                            iconBtnClassName = 'projectButton'
+                            iconStyle = { background: "#e1dff5" }
+                            iconBtnClassName = 'cptButton'
                             break;
 
                         default:
                             break;
                     }
-
-                    let isWorkIcon = element.icon === "work"
-
 
                     let showButton =
                         element.buttonText !== undefined &&
@@ -59,7 +56,7 @@ export default function Timeline() {
 
                     return (
                         <VerticalTimelineElement
-                            key={element.key}
+                            key={element.id}
                             date={element.date}
                             dateClassName="date"
                             iconStyle={iconStyle}
@@ -75,7 +72,6 @@ export default function Timeline() {
 
                             {showButton && (
                                 <a
-                                    // className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`}
                                     className={`button ${iconBtnClassName}`}
                                     href={element.refLink}
                                 >
