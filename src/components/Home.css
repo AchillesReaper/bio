@@ -1,11 +1,12 @@
-#my-name{
+#my-name {
     background-color: #1a5775;
 }
-h1{
+
+h1 {
     color: aliceblue;
 }
 
-.home-container{
+.home-container {
     background: #3da3d5;
     margin: 2px;
     border: 1px blue solid;
@@ -43,8 +44,11 @@ td {
 
 
 #canvas-container {
-    width: 90%;
-    height: 90%;
+    position: relative;
+    width: 50vw;
+    height: 58vh;
+    /* border: 1px solid green;
+    margin: 2px; */
 }
 
 @media (max-width: 800px) {
@@ -58,7 +62,15 @@ td {
         width: 98vw;
         height: 40vh;
         font-size: calc(10px + 1.5vmin);
-        
+
+    }
+
+    #canvas-container {
+        position: relative;
+        width: 98vw;
+        height: 40vh;
+        /* border: 1px solid green;
+        margin: 2px; */
     }
 
     #time-line {
