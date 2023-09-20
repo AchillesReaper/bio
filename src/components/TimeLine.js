@@ -17,7 +17,7 @@ export default function Timeline() {
     return (
         <div id="timeline-container">
             <h2 className="title">If you would like to know more about me, please keep scrolling</h2>
-            <StartIcon />
+            <StartIcon widheith={'40vw'}/>
             <VerticalTimeline>
                 {timelineElements.map(element => {
                     switch (element.icon) {
