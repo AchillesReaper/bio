@@ -1,3 +1,10 @@
+.home-container{
+    background: #3da3d5;
+    margin: 2px;
+    border: 1px blue solid;
+
+}
+
 td {
     vertical-align: top;
     text-align: left;
@@ -11,11 +18,10 @@ td {
 
 #introduction,
 #core-skills {
+    background: #3da3d5;
     width: 50vw;
     height: 60vh;
     font-size: calc(10px + 1vmin);
-    margin: 2px;
-    border: 1px blue solid;
     overflow-x: scroll;
     overflow-y: scroll;
 }

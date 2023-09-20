@@ -1,3 +1,6 @@
+import { ReactComponent as StartIcon } from "../assets/timlineIcon/start.svg"
+import { ReactComponent as CptIcon } from "../assets/timlineIcon/cpt.svg"
+
 import { ReactComponent as WorkIcon } from "../assets/timlineIcon/work.svg"
 import { ReactComponent as SchoolIcon } from '../assets/timlineIcon/school.svg'
 import { ReactComponent as ProjectIcon } from '../assets/timlineIcon/project.svg'
@@ -14,7 +17,7 @@ export default function Timeline() {
     return (
         <div id="timeline-container">
             <h1 className="title">If you would like to know more about me, please keep scrolling</h1>
-            <ProjectIcon />
+            <StartIcon />
             <VerticalTimeline>
                 {timelineElements.map(element => {
                     switch (element.icon) {
@@ -32,6 +35,12 @@ export default function Timeline() {
 
                         case "project":
                             icon = <ProjectIcon />
+                            iconStyle = { background: "#D2a557" }
+                            iconBtnClassName = 'projectButton'
+                            break;
+
+                        case "cpt":
+                            icon = <CptIcon />
                             iconStyle = { background: "#D2a557" }
                             iconBtnClassName = 'projectButton'
                             break;
@@ -68,7 +77,7 @@ export default function Timeline() {
                                 <a
                                     // className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`}
                                     className={`button ${iconBtnClassName}`}
-                                    href="/"
+                                    href={element.refLink}
                                 >
                                     {element.buttonText}
                                 </a>

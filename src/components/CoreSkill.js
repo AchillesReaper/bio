@@ -85,7 +85,7 @@ const CoreSkill = () => {
       };
 
       p.draw = () => {
-        p.background(120);
+        p.background('#3da3d5');
 
         // Draw concentric circles
         for (let i = 1; i < 3; i++) {
