@@ -50,6 +50,16 @@
   .schoolButton:hover {
     background-color: #f3bc3c;
   }
+
+  .projectButton {
+    background-color: #D2a557;
+  }
+  
+  .projectButton:hover {
+    background-color: #3cf3d5;
+  }
+
+
   
   @media only screen and (max-width: 1700px) {
     .vertical-timeline-element-date {

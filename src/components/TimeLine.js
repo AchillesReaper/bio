@@ -7,17 +7,41 @@ import './Timeline.css'
 import "react-vertical-timeline-component/style.min.css"
 
 export default function Timeline() {
-    let workIconStyles = { background: "#06D6A0" }
-    let schoolIconStyles = { background: "#f9c74f" }
-    let projectIconStyles = {background: "#904e95"}
+    let icon;
+    let iconStyle;
+    let iconBtnClassName;
+
     return (
         <div id="timeline-container">
             <h1 className="title">If you would like to know more about me, please keep scrolling</h1>
-            <ProjectIcon/>
+            <ProjectIcon />
             <VerticalTimeline>
                 {timelineElements.map(element => {
+                    switch (element.icon) {
+                        case "work":
+                            icon = <WorkIcon />
+                            iconStyle = { background: "#06D6A0" }
+                            iconBtnClassName = 'workButton'
+                            break;
+
+                        case "school":
+                            icon = <SchoolIcon />
+                            iconStyle = { background: "#f9c74f" }
+                            iconBtnClassName = 'schoolButton'
+                            break;
+
+                        case "project":
+                            icon = <ProjectIcon />
+                            iconStyle = { background: "#D2a557" }
+                            iconBtnClassName = 'projectButton'
+                            break;
+
+                        default:
+                            break;
+                    }
+
                     let isWorkIcon = element.icon === "work"
-                    
+
 
                     let showButton =
                         element.buttonText !== undefined &&
@@ -29,8 +53,8 @@ export default function Timeline() {
                             key={element.key}
                             date={element.date}
                             dateClassName="date"
-                            iconStyle={isWorkIcon ? workIconStyles : schoolIconStyles}
-                            icon={isWorkIcon ? <WorkIcon /> : <SchoolIcon />}
+                            iconStyle={iconStyle}
+                            icon={icon}
                         >
                             <h3 className="vertical-timeline-element-title">
                                 {element.title}
@@ -42,7 +66,8 @@ export default function Timeline() {
 
                             {showButton && (
                                 <a
-                                    className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`}
+                                    // className={`button ${isWorkIcon ? "workButton" : "schoolButton"}`}
+                                    className={`button ${iconBtnClassName}`}
                                     href="/"
                                 >
                                     {element.buttonText}
