@@ -138,16 +138,17 @@ const CoreSkill = () => {
       p.windowResized = () => {
         // Resize the canvas when the window is resized
         parentContainer = canvasRef.current;
-        p.resizeCanvas(parentContainer.offsetWidth, parentContainer.offsetHeight);
-        centerX = parentContainer.offsetWidth / 2;
-        centerY = parentContainer.offsetHeight / 2;
+        if (parentContainer != null) {
+          p.resizeCanvas(parentContainer.offsetWidth, parentContainer.offsetHeight);
+          centerX = parentContainer.offsetWidth / 2;
+          centerY = parentContainer.offsetHeight / 2;
 
-        canvasSize = Math.min(parentContainer.offsetWidth, parentContainer.offsetHeight);
-        coreSize = canvasSize / 6;
-        tier1Size = canvasSize / 8;
-        tier2Size = canvasSize / 10;
-
-        p.redraw()
+          canvasSize = Math.min(parentContainer.offsetWidth, parentContainer.offsetHeight);
+          coreSize = canvasSize / 6;
+          tier1Size = canvasSize / 8;
+          tier2Size = canvasSize / 10;
+          p.redraw()
+        }
       };
     };
 

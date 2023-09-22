@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <div>
             <div id='my-name' className='home-container'>
-                <h1>Donald Ho</h1>
+                <h2>Donald Ho</h2>
             </div>
             <section id='profile'>
                 <div id='introduction' className='home-container'>

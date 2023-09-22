@@ -80,3 +80,9 @@ td {
     }
 
 }
+
+/* for Academic page  */
+#cert-display-frame > img {
+    /* width: 98vw; */
+    max-width: 98vw;
+}
