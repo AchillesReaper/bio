@@ -1,20 +1,25 @@
 {
   "files": {
-    "main.css": "/bio/static/css/main.bd6e8042.css",
-    "main.js": "/bio/static/js/main.3d79b3a5.js",
+    "main.css": "/bio/static/css/main.d2124c4c.css",
+    "main.js": "/bio/static/js/main.40dabc88.js",
     "static/js/787.316e8c7e.chunk.js": "/bio/static/js/787.316e8c7e.chunk.js",
+    "static/media/2023-08-01 Academic Transcript.png": "/bio/static/media/2023-08-01 Academic Transcript.88632c8fa2c246c4202e.png",
+    "static/media/2009-03-16 UTS Cert_Bachelor.png": "/bio/static/media/2009-03-16 UTS Cert_Bachelor.d057cd15af2d5f4120d7.png",
+    "static/media/2023-08-03 Master of Information Technology.png": "/bio/static/media/2023-08-03 Master of Information Technology.6188d0d44a936f166be9.png",
+    "static/media/2022 Deans List Certificates PG_HIN HANG HO.png": "/bio/static/media/2022 Deans List Certificates PG_HIN HANG HO.9d58b62d492a583c2f83.png",
+    "static/media/2023 Deans List Certificates PG_HIN HANG HO.png": "/bio/static/media/2023 Deans List Certificates PG_HIN HANG HO.cf4c0641da6cc120c657.png",
     "static/media/project.svg": "/bio/static/media/project.ef1a22dd475e0686c0afd0f44dba0aaf.svg",
     "static/media/cpt.svg": "/bio/static/media/cpt.8274bb6af0487206f2814d99011c5e6b.svg",
     "static/media/start.svg": "/bio/static/media/start.66c2056066d16ac4206df4408038b623.svg",
     "static/media/school.svg": "/bio/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
     "static/media/work.svg": "/bio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/bio/index.html",
-    "main.bd6e8042.css.map": "/bio/static/css/main.bd6e8042.css.map",
-    "main.3d79b3a5.js.map": "/bio/static/js/main.3d79b3a5.js.map",
+    "main.d2124c4c.css.map": "/bio/static/css/main.d2124c4c.css.map",
+    "main.40dabc88.js.map": "/bio/static/js/main.40dabc88.js.map",
     "787.316e8c7e.chunk.js.map": "/bio/static/js/787.316e8c7e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd6e8042.css",
-    "static/js/main.3d79b3a5.js"
+    "static/css/main.d2124c4c.css",
+    "static/js/main.40dabc88.js"
   ]
 }
