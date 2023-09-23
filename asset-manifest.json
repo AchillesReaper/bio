@@ -1,9 +1,16 @@
 {
   "files": {
     "main.css": "/bio/static/css/main.d2124c4c.css",
-    "main.js": "/bio/static/js/main.40dabc88.js",
+    "main.js": "/bio/static/js/main.47ae711a.js",
     "static/js/787.316e8c7e.chunk.js": "/bio/static/js/787.316e8c7e.chunk.js",
     "static/media/2023-08-01 Academic Transcript.png": "/bio/static/media/2023-08-01 Academic Transcript.88632c8fa2c246c4202e.png",
+    "static/media/2023-06-15 Intro Front End.png": "/bio/static/media/2023-06-15 Intro Front End.c81a59ce792d9567a5ef.png",
+    "static/media/2023-07-20 Programming with JavaScript.png": "/bio/static/media/2023-07-20 Programming with JavaScript.ba68c674b20f629d0004.png",
+    "static/media/2023-08-11  HTML and CSS in depth.png": "/bio/static/media/2023-08-11  HTML and CSS in depth.75968ecdade9a77f1b63.png",
+    "static/media/2023-08-21 React Basics.png": "/bio/static/media/2023-08-21 React Basics.14f1ba99bf6efbf953c4.png",
+    "static/media/2023-09-07 Version Control.png": "/bio/static/media/2023-09-07 Version Control.2bbb92b82d8f918c5ca3.png",
+    "static/media/2023-06-29 Python for Everybody.png": "/bio/static/media/2023-06-29 Python for Everybody.3a7da70e23bd978ad743.png",
+    "static/media/2015-04-15 FRM.png": "/bio/static/media/2015-04-15 FRM.a0a10751d717687b2128.png",
     "static/media/2009-03-16 UTS Cert_Bachelor.png": "/bio/static/media/2009-03-16 UTS Cert_Bachelor.d057cd15af2d5f4120d7.png",
     "static/media/2023-08-03 Master of Information Technology.png": "/bio/static/media/2023-08-03 Master of Information Technology.6188d0d44a936f166be9.png",
     "static/media/2022 Deans List Certificates PG_HIN HANG HO.png": "/bio/static/media/2022 Deans List Certificates PG_HIN HANG HO.9d58b62d492a583c2f83.png",
@@ -15,11 +22,11 @@
     "static/media/work.svg": "/bio/static/media/work.3710b62484ed638074240e99317c6c60.svg",
     "index.html": "/bio/index.html",
     "main.d2124c4c.css.map": "/bio/static/css/main.d2124c4c.css.map",
-    "main.40dabc88.js.map": "/bio/static/js/main.40dabc88.js.map",
+    "main.47ae711a.js.map": "/bio/static/js/main.47ae711a.js.map",
     "787.316e8c7e.chunk.js.map": "/bio/static/js/787.316e8c7e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2124c4c.css",
-    "static/js/main.40dabc88.js"
+    "static/js/main.47ae711a.js"
   ]
 }
