@@ -22,13 +22,12 @@ export default function Industrial() {
 
     useEffect(() => {
 
-        console.log({ selectedCert }, 'is selected')
     }, [selectedCert])
 
 
     return (
         <div>
-            <h2 class="display-4"><u>Continuous Professional Training</u></h2>
+            <h2 className="display-10"><u>Continuous Professional Training</u></h2>
             <CertificateTable type='cpt' certs={certs} onPreviewClick={handlePreviewClick} />
             {selectedCert ? <CertPreviewer cert={selectedCert} /> : null}
         </div>

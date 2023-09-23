@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react"
 import CertificateTable from "./CertificateTable";
 import CertPreviewer from "./CertPreviewer";
-import AcademicPreviewer from "./AcademicPreviewer";
 
 const certs = [
     { name: 'mitCert', course: 'Master of Information Technology', school: 'UTS', description: 'Graduation Certificate' },
@@ -20,13 +19,12 @@ export default function Academic() {
 
     useEffect(() => {
 
-        console.log({ selectedCert }, 'is selected')
     }, [selectedCert])
 
 
     return (
         <div>
-            <h2 class="display-4"><u>Education</u></h2>
+            <h2 className="display-10"><u>Education</u></h2>
             <CertificateTable type='edu' certs={certs} onPreviewClick={handlePreviewClick} />
             {selectedCert ? <CertPreviewer cert={selectedCert} /> : null}
         </div>
