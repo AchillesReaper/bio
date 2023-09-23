@@ -1,7 +1,7 @@
 import './Home.css'
 import Introduction from './Introduction';
 import CoreSkill from './CoreSkill';
-import TimeLine from './Timeline';
+import Timeline from './Timeline';
 
 export default function Home() {
 
@@ -22,7 +22,7 @@ export default function Home() {
             </section>
 
             <section id='time-line' className='home-container'>
-                <TimeLine />
+                <Timeline />
             </section>
 
         </div>
