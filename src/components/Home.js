@@ -1,7 +1,7 @@
 import './Home.css'
 import Introduction from './Introduction';
 import CoreSkill from './CoreSkill';
-import TimeLine from './Timeline';
+import TimeLine from './Timeline_n';
 
 export default function Home() {
 
