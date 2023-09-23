@@ -1,9 +1,9 @@
 const listOfEvents = [
     {
-        title: "Meta, Meta Front-End Developer Professional Certificate",
+        title: "Meta, Front-End Developer Professional Certificate",
         location: "Sydney, Australia",
         description:
-            "This course is part of the Meta Front-End Developer Professional Certificate",
+            "Prepare for a career in Front-end Development",
         buttonText: "View Certificates",
         date: "Jun 2023 - present",
         icon: "cpt",
@@ -37,7 +37,7 @@ const listOfEvents = [
         title: "University of Michigam, Python for Everybody ",
         location: "Sydney, Australia",
         description:
-            "This Specialization builds on the success of the Python for Everybody course and will introduce fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language.",
+            "This Specialization introduces fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language.",
         buttonText: "View Certificate",
         date: "29 Jun 2023",
         icon: "cpt",

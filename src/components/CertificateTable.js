@@ -1,8 +1,9 @@
 import React from "react"
-export default function CertificateTable({ certs, onPreviewClick }) {
-    return (
-        <div>
-            <table className="table">
+export default function CertificateTable({ type, certs, onPreviewClick }) {
+    let displayTable;
+    switch (type) {
+        case 'edu':
+            displayTable = <table className="table">
                 <thead>
                     <tr>
                         <th scope="col">University</th>
@@ -23,8 +24,40 @@ export default function CertificateTable({ certs, onPreviewClick }) {
                     ))}
                 </tbody>
             </table>
+            break;
 
+        case 'cpt':
+            displayTable = <table className="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Organisation</th>
+                        <th scope="col">Course</th>
+                        <th scope="col">Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {certs.map((cert, index) => (
+                        <tr key={index}>
+                            <td className="text-center">{cert.organisation}</td>
+                            <td className="text-center"><a href={cert.description} >{cert.course}</a></td>
+                            <td className="text-center">
+                                <a href="#" onClick={() => onPreviewClick(cert)}>{cert.date}</a>
+                            </td>
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+            break;
 
-        </div>
+        default:
+            break;
+    }
+
+    return (
+        <div>
+
+            {displayTable}
+
+        </div >
     )
 }

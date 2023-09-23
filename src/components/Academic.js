@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react"
 import CertificateTable from "./CertificateTable";
+import CertPreviewer from "./CertPreviewer";
 import AcademicPreviewer from "./AcademicPreviewer";
 
 const certs = [
@@ -26,8 +27,8 @@ export default function Academic() {
     return (
         <div>
             <h2 class="display-4"><u>Education</u></h2>
-            <CertificateTable certs={certs} onPreviewClick={handlePreviewClick} />
-            {selectedCert ? <AcademicPreviewer cert={selectedCert} /> : null}
+            <CertificateTable type='edu' certs={certs} onPreviewClick={handlePreviewClick} />
+            {selectedCert ? <CertPreviewer cert={selectedCert} /> : null}
         </div>
     )
 }
