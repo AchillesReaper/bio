@@ -76,7 +76,7 @@ export default function Timeline() {
 
                             {showButton && (
                                 <a
-                                    className={`button ${iconBtnClassName}`}
+                                    className={`button ${iconBtnClassName} text-nowrap`}
                                     href={element.refLink}
                                 >
                                     {element.buttonText}

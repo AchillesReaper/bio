@@ -4,10 +4,10 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "Prepare for a career in Front-end Development",
-        buttonText: "View Certificates",
+        buttonText: "Certificates",
         date: "Jun 2023 - present",
         icon: "cpt",
-        refLink: '/'
+        refLink: '/bio/industrial'
     },
 
     {
@@ -18,7 +18,7 @@ const listOfEvents = [
         buttonText: "Go to my bio page",
         date: "September 2023",
         icon: "project",
-        refLink: "https://achillesreaper.github.io/bio/"
+        refLink: "/bio"
     },
     
 
@@ -27,10 +27,10 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "major in Software Development",
-        buttonText: "View Certificates",
+        buttonText: "Certificates",
         date: "1 Aug 2023",
         icon: "school",
-        refLink: '/'
+        refLink: '/bio/academic'
     },
 
     {
@@ -38,10 +38,10 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "This Specialization introduces fundamental programming concepts including data structures, networked application program interfaces, and databases, using the Python programming language.",
-        buttonText: "View Certificate",
+        buttonText: "Certificate",
         date: "29 Jun 2023",
         icon: "cpt",
-        refLink: '/'
+        refLink: '/bio/industrial'
     },
 
 
@@ -50,7 +50,7 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "A internship role responsible for a project reviewing the loan serviceability calculation process, defining a generic serviceability calculation, and accordingly build a calculator which can be integrated to LIXI’s current system.",
-        buttonText: "View Company Website",
+        buttonText: "Company Website",
         date: "Feburary 2023 - May 2023",
         icon: "work",
         refLink: 'https://lixi.org.au/'
@@ -62,7 +62,7 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "This is a UTS project. Visualizing multiple types of data collected by FEIT UTS with original design on interaction and presentation. Technologies involved Processing, Processing Sounds and ControlP5, API, JSON, Python, GitHub.",
-        buttonText: "View Project Demo",
+        buttonText: "Project Demo",
         date: "October 2022",
         icon: "project",
         refLink: 'https://youtu.be/wl4TmeNfV6s'
@@ -73,7 +73,7 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "A full stack project for a local business with the use of Java, MySQL, JBDC, javax, batch scripting to create a simple bookkeeping system in local device.",
-        buttonText: "View Project Demo",
+        buttonText: "Project Demo",
         date: "August 2022",
         icon: "project",
         refLink: 'https://www.youtube.com/watch?v=S9te6TwZNVo'
@@ -85,7 +85,7 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "A client-side-only iOS game",
-        buttonText: "View Project Demo",
+        buttonText: "Project Demo",
         date: "May 2022",
         icon: "project",
         refLink: 'https://www.youtube.com/watch?v=PZ8vjW1kqTk'
@@ -96,7 +96,7 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "This is a UTS project. An e-commerce web application with both server and client side by using HTML, CSS, PHP, MySQL, JavaScript, AWS Beanstalk, GitHub.",
-        buttonText: "View Project Demo",
+        buttonText: "Project Demo",
         date: "May 2022",
         icon: "project",
         refLink: 'https://youtu.be/gNohrjJ1RSA'
@@ -131,7 +131,7 @@ const listOfEvents = [
         location: "Hong Kong",
         description:
             "Overseen the securities and futures business.",
-        buttonText: "View Company Website",
+        buttonText: "Company Website",
         date: "Jun 2016 – Jan 2019",
         icon: "work",
         refLink: 'https://www.libkr.com.hk/'
@@ -142,7 +142,7 @@ const listOfEvents = [
         location: "Hong Kong",
         description:
             "Managed investment portfolio for clients; Generated around 20% profit per annum.",
-        buttonText: "View Company Website",
+        buttonText: "Company Website",
         date: "Aug 2013 – Jan 2016",
         icon: "work",
         refLink: 'https://en.chinastock.com.hk/'
@@ -153,7 +153,7 @@ const listOfEvents = [
         location: "Hong Kong",
         description:
             "A globally recognized professional certification for individuals working in the field of risk management within the financial industry",
-        buttonText: "View Certificate",
+        buttonText: "Certificate",
         date: "15 Apr 2015",
         icon: "cpt",
         refLink: '/'
@@ -164,7 +164,7 @@ const listOfEvents = [
         location: "Hong Kong",
         description:
             "Provided account services and investment advice to clients.",
-        buttonText: "View Company Website",
+        buttonText: "Company Website",
         date: "Sep 2012 – Aug 2013",
         icon: "work",
         refLink: 'https://www.bocomgroup.com/'
@@ -175,7 +175,7 @@ const listOfEvents = [
         location: "Hong Kong",
         description:
             "Provided account services and investment advice to clients. Managed over 300 clients.",
-        buttonText: "View Company Website",
+        buttonText: "Company Website",
         date: "Jun 2010 – Sep 2012",
         icon: "work",
         refLink: 'https://www.icbci.com.hk/'
@@ -186,10 +186,10 @@ const listOfEvents = [
         location: "Sydney, Australia",
         description:
             "major in Finance, submajor in Banking",
-        buttonText: "View Certificate",
+        buttonText: "Certificate",
         date: "16 Aug 2009",
         icon: "school",
-        refLink: '/'
+        refLink: '/bio/academic'
     }
 ]
 

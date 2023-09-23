@@ -3,7 +3,7 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
     let displayTable;
     switch (type) {
         case 'edu':
-            displayTable = <table className="table">
+            displayTable = <table className="table text-nowrap">
                 <thead>
                     <tr>
                         <th scope="col">University</th>
@@ -38,9 +38,9 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
                 <tbody>
                     {certs.map((cert, index) => (
                         <tr key={index}>
-                            <td className="text-center">{cert.organisation}</td>
-                            <td className="text-center"><a href={cert.description} >{cert.course}</a></td>
-                            <td className="text-center">
+                            <td className="text-center text-nowrap">{cert.organisation}</td>
+                            <td className="text-center text-nowrap"><a href={cert.description} >{cert.course}</a></td>
+                            <td className="text-center text-nowrap">
                                 <a href="#" onClick={() => onPreviewClick(cert)}>{cert.date}</a>
                             </td>
                         </tr>
@@ -54,7 +54,7 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
     }
 
     return (
-        <div>
+        <div className="table-responsive">
 
             {displayTable}
 
