@@ -17,7 +17,11 @@ export default function Timeline() {
     return (
         <div id="timeline-container">
             <h2 className="title">If you would like to know more about me, please keep scrolling</h2>
-            <StartIcon widheith={'40vw'}/>
+            <StartIcon
+                style={{
+                    maxWidth: "30vh", // Set the maximum width to 30vh
+                    maxHeight: "30vh", // Set the maximum height to 30vh
+                }} />
             <VerticalTimeline>
                 {timelineElements.map(element => {
                     switch (element.icon) {
