@@ -1,7 +1,7 @@
 import bbCert from '../assets/certificate/education/2009-03-16 UTS Cert_Bachelor.png'
 import mitDean2022 from '../assets/certificate/education/2022 Deans List Certificates PG_HIN HANG HO.png'
 import mitDean2023 from '../assets/certificate/education/2023 Deans List Certificates PG_HIN HANG HO.png'
-import mitTrans from '../assets/certificate/education/2023-08-01 Academic Transcript.png'
+import mitTrans from '../assets/certificate/education/2023-08-02 Graduation statement - print.png'
 import mitCert from '../assets/certificate/education/2023-08-03 Master of Information Technology.png'
 
 import metaifed from '../assets/certificate/cpt/2023-06-15 Intro Front End.png';
