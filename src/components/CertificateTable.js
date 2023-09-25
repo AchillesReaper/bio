@@ -18,7 +18,6 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
                             <td className="text-center">{cert.course}</td>
                             <td className="text-center">
                                 <a href="#" onClick={() => onPreviewClick(cert)}>{cert.description}</a>
-                                {/* <button onClick={() => onPreviewClick(cert)}>{cert.description}</button> */}
                             </td>
                         </tr>
                     ))}
