@@ -61,7 +61,7 @@ export default function Projects() {
             <div class="card-body">
                 <p>{project.description}</p>
                 <p><b>Tech:</b> <em>{project.tech}</em></p>
-                {/* {project.source} */}
+
                 {project.demo === 'web'
                     ? <a type='button' className='btn btn-primary' href={project.source}> View Project</a>
                     : project.source}
