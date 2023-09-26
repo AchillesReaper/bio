@@ -1,4 +1,4 @@
-import './Projects.css'
+// import './Projects.css'
 const projects = [
 
     {
@@ -56,7 +56,7 @@ const projects = [
 export default function Projects() {
     const projectPage = projects.map((project, index) => (
 
-        <div className="card text-center" key={index}>
+        <div className="card text-center project-display" key={index}>
             <h3 className='card-title'>{project.name}</h3>
             <div class="card-body">
                 <p>{project.description}</p>
@@ -72,7 +72,7 @@ export default function Projects() {
     )
 
     return (
-        <div id='project-page'>
+        <div id='project-page' className="page-container">
             {projectPage}
         </div >
 

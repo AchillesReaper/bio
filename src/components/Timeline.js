@@ -6,7 +6,7 @@ import { ReactComponent as SchoolIcon } from '../assets/timlineIcon/school.svg'
 import { ReactComponent as ProjectIcon } from '../assets/timlineIcon/project.svg'
 import timelineElements from "./timlineElements"
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component"
-import './Timeline.css'
+// import './Timeline.css'
 import "react-vertical-timeline-component/style.min.css"
 
 export default function Timeline() {

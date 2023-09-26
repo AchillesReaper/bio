@@ -25,7 +25,7 @@ const CoreSkill = () => {
     let numNodesT2;
 
     let centerNodeAngle = 0;
-    let centerNodeRotationSpeed = 1;
+    let centerNodeRotationSpeed = 0.5;
 
     const sketch = (p) => {
 
@@ -50,7 +50,6 @@ const CoreSkill = () => {
         const nodeSrcT2 = [
           imgUrl + 'logo-Java.png',
           imgUrl + 'logo-Swift.png',
-          imgUrl + 'logo-CSS.png',
           imgUrl + 'logo-Processing.png',
           imgUrl + 'logo-aws.png',
           imgUrl + 'logo-mysql.png',
@@ -163,7 +162,7 @@ const CoreSkill = () => {
   }, []);
 
   return (
-    <div>
+    <div className="page-container-child">
       <div id="canvas-container" ref={canvasRef} >
       </div>
     </div>

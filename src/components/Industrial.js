@@ -27,7 +27,7 @@ export default function Industrial() {
 
     return (
         <div>
-            <h2 className="display-10"><u>Continuous Professional Training</u></h2>
+            <h2 className="banner">Continuous Professional Training</h2>
             <CertificateTable type='cpt' certs={certs} onPreviewClick={handlePreviewClick} />
             {selectedCert ? <CertPreviewer cert={selectedCert} /> : null}
         </div>

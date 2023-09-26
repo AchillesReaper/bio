@@ -53,7 +53,7 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
     }
 
     return (
-        <div className="table-responsive">
+        <div className="table-responsive page-container">
 
             {displayTable}
 
