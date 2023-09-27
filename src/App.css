@@ -249,6 +249,10 @@
   max-height: 315px;
   width: 100%;
   height: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 
