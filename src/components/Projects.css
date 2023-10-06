@@ -1,0 +1,36 @@
+#project-page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card{
+    max-width: 600px;
+    width: 40%;
+    height: width*2;
+    margin: 20px;
+    border: 1px solid blue;
+}
+
+.project-demo{
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+
+}
+
+@media (max-width: 800px) {
+    #project-page{
+        gap: 5px;
+    }
+    .card{
+        width: 95vw;
+        /* border: 1px solid blue; */
+    }
+
+    .project-demo{
+        width: 90%;
+        height: width*9/16;
+    }
+}

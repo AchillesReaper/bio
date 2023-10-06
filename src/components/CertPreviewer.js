@@ -63,7 +63,7 @@ export default function CertPreviewer({ cert }) {
     }
 
     return (
-        <div id='cert-display-frame'>
+        <div className='page-container'>
             {displayCert}
         </div>
 

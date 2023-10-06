@@ -18,7 +18,6 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
                             <td className="text-center">{cert.course}</td>
                             <td className="text-center">
                                 <a href="#" onClick={() => onPreviewClick(cert)}>{cert.description}</a>
-                                {/* <button onClick={() => onPreviewClick(cert)}>{cert.description}</button> */}
                             </td>
                         </tr>
                     ))}
@@ -54,7 +53,7 @@ export default function CertificateTable({ type, certs, onPreviewClick }) {
     }
 
     return (
-        <div className="table-responsive">
+        <div className="table-responsive page-container">
 
             {displayTable}
 

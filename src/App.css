@@ -1,4 +1,269 @@
 .App {
   text-align: center;
+  color: #fff;
 }
 
+
+/* ************* for nav bar ************* */
+#navbar {
+  z-index: 100000;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  /* Background color */
+  padding: 10px 0;
+  /* Padding at the top and bottom */
+}
+
+#navbar ul {
+  list-style: none;
+  /* Remove bullet points from the list */
+  padding: 0;
+  margin: 0;
+}
+
+#navbar li {
+  display: inline;
+  /* Display list items horizontally */
+  margin-right: 20px;
+  /* Spacing between list items */
+}
+
+#navbar a {
+  text-decoration: none;
+  /* Remove underline from links */
+  color: #fff;
+  /* Text color for links */
+  font-weight: bold;
+  /* Bold text for links */
+  transition: color 0.3s;
+  /* Smooth color transition on hover */
+}
+
+#navbar a:hover {
+  color: #ff6600;
+  /* Change text color on hover */
+}
+
+
+/* ************* common page style ************* */
+.banner {
+  background-color: #1a5775;
+  margin: 2px;
+}
+
+.page-container {
+  justify-content: center;
+  background: #3da3d5;
+  margin: 2px;
+  border: 1px blue solid;
+  max-width: 100vw;
+  ;
+}
+
+
+
+/* ************* for Home page ************* */
+#home-page td {
+  vertical-align: top;
+  text-align: left;
+}
+
+#profile {
+  position: relative;
+  display: flex;
+}
+
+
+#profile .page-container {
+  position: relative;
+  background: #3da3d5;
+  width: 50vw;
+  max-height: 60vh;
+  min-height: 30vh;
+  font-size: calc(10px + 1vmin);
+  color: aliceblue;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+}
+
+.page-container-child {
+  width: 100%;
+  height: 100%;
+
+}
+
+#canvas-container {
+  /* position: relative; */
+  width: 98%;
+  height: 100%;
+}
+
+
+/* ************* for Home page - Timeline ************* */
+#time-line {
+  font-size: calc(10px + 1vmin);
+  color: aliceblue;
+  margin: 2px;
+  border: 1px blue solid;
+}
+
+#timeline-container {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(53, 53, 53);
+}
+
+#timeline-container .title {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#timeline-container h3 {
+  padding-top: 0.25em;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+#description {
+  margin: 1.5em 0 2em 0;
+}
+
+#timeline-container .button {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  color: white;
+}
+
+.workButton {
+  background-color: #06d6a0;
+}
+
+.workButton:hover {
+  background-color: #0ac593;
+}
+
+.schoolButton {
+  background-color: #f9c74f;
+}
+
+.schoolButton:hover {
+  background-color: #f3bc3c;
+}
+
+.projectButton {
+  background-color: #D2a557;
+}
+
+.projectButton:hover {
+  background-color: #3cf3d5;
+}
+
+.cptButton {
+  background-color: #e54b4b;
+}
+
+.cptButton:hover {
+  background-color: #f09494;
+}
+
+@media (max-width: 800px) {
+  #profile {
+    display: block;
+  }
+
+  #profile .page-container {
+    display: flex;
+    width: 98vw;
+    height: 40vh;
+    font-size: calc(10px + 1.5vmin);
+  }
+
+  #canvas-container {
+    position: relative;
+    width: 98vw;
+    height: 38vh;
+  }
+
+  #time-line {
+    /* width: 98vw; */
+    margin: 2px;
+    border: 1px blue solid;
+  }
+
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+
+
+/* ************* Academic/Industrial page ************* */
+.page-container img {
+  max-width: 98%;
+}
+
+/* ************* Project page ************* */
+#project-page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+#project-page .card {
+  background-color: #44dd7c;
+  max-width: 600px;
+  width: 40%;
+  height: 600px;
+  max-height: 40vh;
+  margin: 20px;
+  border: 1px solid blue;
+}
+
+#project-page .card:hover {
+  background-color: rgb(255, 255, 255);
+  border: 3px solid greenyellow;
+  .iframe{
+    border: 1px solid blue
+  }
+}
+
+.project-demo {
+  max-width: 560px;
+  max-height: 315px;
+  width: 100%;
+  height: 57%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@media (max-width: 800px) {
+  #project-page {
+    gap: 5px;
+  }
+
+  #project-page .card {
+    width: 95vw;
+    max-height: 50vh;
+  }
+
+}

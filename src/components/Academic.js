@@ -23,8 +23,8 @@ export default function Academic() {
 
 
     return (
-        <div>
-            <h2 className="display-10"><u>Education</u></h2>
+        <div id="academic-page">
+            <h2 className="banner">Education</h2>
             <CertificateTable type='edu' certs={certs} onPreviewClick={handlePreviewClick} />
             {selectedCert ? <CertPreviewer cert={selectedCert} /> : null}
         </div>
