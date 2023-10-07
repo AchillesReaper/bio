@@ -11,7 +11,7 @@ import Layout from './components/Layout';
 function App() {
   return (
     <div className="App">
-      <Router basename='/bio'>
+      <Router >
         <Navbar/>
         <Routes path="/" element={<Layout/>}>
           <Route index element={<Home/>} />

@@ -1,5 +1,4 @@
 {
-  "homepage": "https://achillesreaper.github.io/bio",
   "name": "bio-page",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +21,9 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sync": "npm run build && aws s3 sync ./build 's3://dh3.space' --delete",
+    "invalid": "aws cloudfront create-invalidation --distribution-id E2U3E5QAQKBB1H --paths '/*'"
   },
   "eslintConfig": {
     "extends": [

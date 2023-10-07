@@ -6,7 +6,7 @@ const projects = [
         description: "A bio page to showcase the certificates and projects",
         tech: "HTML, CSS, JavaScript, React.js, p5.js, GitHub",
         demo: "web",
-        source: "https://achillesreaper.github.io/bio"
+        source: "https://dh3.space/"
     },
 
     {
