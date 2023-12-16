@@ -1,4 +1,3 @@
-// import './Home.css'
 import Introduction from './Introduction';
 import CoreSkill from './CoreSkill';
 import Timeline from './Timeline';
